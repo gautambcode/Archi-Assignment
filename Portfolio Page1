@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <title>Adobe XD</title>
+        <meta name="robots" content="noindex" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- Prototype icon link for iOS -->
+        <link rel="apple-touch-icon" href="/static/images/xd_ios_webclip_192-2ba9bb09b3860133e768d147ce1fece215fc2bf3.png" />
+        <!-- Home screen setting & prototype icon link for Android -->
+        <meta name="mobile-web-app-capable" content="yes" />
+        <link rel="icon" href="/static/images/xd_android_webclip_192-f68ab947e37c09acf69cea3122e60893bcc15cb4.png" />
+        <link rel="manifest" href="/static/manifest-d13de80b83503d86673e5b998f4c3ce69a6cab54.json" />
+        <!-- Prototype icon link for IE -->
+        <link rel="shortcut icon" href="/static/images/xd_favicon-b2ee7867cb9be9ee4055df64f32dcd58f3461fe3.ico" />
+        <!-- Metadata -->
+        <!-- SlackBot Metadata -->
+        <meta name="slack-app-id" content="A7P35MCT0" />
+        <!-- Twitter Metadata -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Flow 1" />
+        <meta name="twitter:description" content="5 Screens, Last modified on Jan 08, 2021 15:47 GMT" />
+        <meta name="twitter:image:alt" content="Adobe XD" />
+        <meta
+            name="twitter:image"
+            content="https://cdn-sharing.adobecc.com/id/urn:aaid:sc:US:3156540b-5773-4c20-9d9c-44fd9e051cc7;version=1?component_id=6ea8a7e2-4649-4b26-8fa0-7b2ed129c9d2&api_key=CometServer1&access_token=1611700623_urn%3Aaaid%3Asc%3AUS%3A3156540b-5773-4c20-9d9c-44fd9e051cc7%3Bpublic_214406c87e873bed62f98f303b179bc855c1fbc3"
+        />
+        <!-- Facebook Metadata -->
+        <meta property="og:url" content="https://xd.adobe.com/view/3156540b-5773-4c20-9d9c-44fd9e051cc7-6405/grid/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Flow 1" />
+        <meta property="og:description" content="5 Screens, Last modified on Jan 08, 2021 15:47 GMT" />
+        <meta
+            property="og:image"
+            content="https://cdn-sharing.adobecc.com/id/urn:aaid:sc:US:3156540b-5773-4c20-9d9c-44fd9e051cc7;version=1?component_id=6ea8a7e2-4649-4b26-8fa0-7b2ed129c9d2&api_key=CometServer1&access_token=1611700623_urn%3Aaaid%3Asc%3AUS%3A3156540b-5773-4c20-9d9c-44fd9e051cc7%3Bpublic_214406c87e873bed62f98f303b179bc855c1fbc3"
+        />
+        <script nonce="cdf4d119-6f76-4eaf-890f-4c2868dd25bf">
+            window.privacyConsentGiven = { allCookies: false, functionalCookies: false, targetingCookies: false, performanceCookies: false };
+            window.fedsConfig = window.fedsConfig || {};
+            window.fedsConfig.privacy = window.fedsConfig.privacy || {};
+            window.fedsConfig.privacy.otDomainId = "7a5eb705-95ed-4cc4-a11d-0cc5760e93db";
+            window.fedsConfig.privacy.footerLinkSelector = "#mainFooter";
+        </script>
+        <script type="text/javascript" nonce="cdf4d119-6f76-4eaf-890f-4c2868dd25bf">
+            function crossBrowserCompatibleEvent(eventName) {
+                var event;
+                if (typeof Event === "function") {
+                    event = new Event(eventName);
+                } else {
+                    event = document.createEvent("Event");
+                    event.initEvent(eventName, true, true);
+                }
+                return event;
+            }
+            function createAndDispatchEvent(eventName) {
+                var event = crossBrowserCompatibleEvent(eventName);
+                window.dispatchEvent(event);
+            }
+            function checkConsent() {
+                var activeGroups = window.adobePrivacy && window.adobePrivacy.activeCookieGroups();
+                if (activeGroups) {
+                    if (activeGroups.indexOf("C0002") === -1) {
+                        window.privacyConsentGiven.performanceCookies = false;
+                    } else {
+                        window.privacyConsentGiven.performanceCookies = true;
+                        createAndDispatchEvent("adobePrivacy:PerformanceCookies");
+                    }
+                    if (activeGroups.indexOf("C0003") === -1) {
+                        window.privacyConsentGiven.functionalCookies = false;
+                    } else {
+                        window.privacyConsentGiven.functionalCookies = true;
+                        createAndDispatchEvent("adobePrivacy:FunctionalCookies");
+                    }
+                    if (activeGroups.indexOf("C0004") === -1) {
+                        window.privacyConsentGiven.targetingCookies = false;
+                    } else {
+                        window.privacyConsentGiven.targetingCookies = true;
+                        createAndDispatchEvent("adobePrivacy:TargetingCookies");
+                        if (!window.newRelicLoaded) {
+                            var newRelicScript = document.createElement("script");
+                            newRelicScript.type = "text/javascript";
+                            newRelicScript.onload = function () {
+                                window.newRelicLoaded = true;
+                                if (window.newRelicLoadedCallback) {
+                                    window.newRelicLoadedCallback();
+                                }
+                            };
+                            newRelicScript.src = "/static/new-relic-c41e6c4570aea612a92d3b7158cb94cb0bfd4e86.js";
+                            document.body.appendChild(newRelicScript);
+                        }
+                    }
+                }
+            }
+            window.addEventListener("adobePrivacy:PrivacyConsent", checkConsent);
+            window.addEventListener("adobePrivacy:PrivacyCustom", checkConsent);
+            window.addEventListener("adobePrivacy:PrivacyReject", checkConsent);
+        </script>
+        <script src="https://www.adobe.com/etc/beagle/public/globalnav/adobe-privacy/latest/privacy.min.js"></script>
+        <script type="text/javascript" nonce="cdf4d119-6f76-4eaf-890f-4c2868dd25bf">
+            window.marketingtech = { adobe: { launch: { property: "global", environment: "production" }, analytics: { additionalAccounts: "" }, target: false, audienceManager: false } };
+        </script>
+        <script src="//www.adobe.com/marketingtech/main.min.js"></script>
+        <script type="text/javascript" nonce="cdf4d119-6f76-4eaf-890f-4c2868dd25bf">
+            window.adobeid = {
+                client_id: "CometWeb1",
+                redirect_uri: location.href,
+                scope: "AdobeID,openid,creative_cloud,sao.ccprivate,sao.ccpublish,ab.manage,sao.comet_service",
+                locale: "en-US",
+                uses_redirect_mode: true,
+                optimizations: { enable: true, fastEvents: true, prefetchSuSi: true },
+                api_parameters: { authorize: { state: { ac: "xd.adobe.com" }, ctx_id: "xdweb_default" } },
+                onAccessToken: function (token) {
+                    const tokenInfo = adobeIMS.getAccessTokenInfo();
+                    const userProfile = adobeIMS.getUserProfile();
+                    if (userProfile && tokenInfo) {
+                        window.signInIMSCallback && window.signInIMSCallback(userProfile.userId, userProfile.name, tokenInfo.access_token);
+                    }
+                },
+                onAccessTokenHasExpired: function () {
+                    window.signOutIMSCallback && window.signOutIMSCallback();
+                },
+                onReady: function () {
+                    window.onReadyIMSCallbackFlag = true;
+                    if (window.onReadyIMSCallback) {
+                        window.onReadyIMSCallback();
+                    }
+                },
+            };
+            window.utilNavLoadCb = function () {
+                if (window.setUtilityNavConfig) {
+                    window.setUtilityNavConfig();
+                }
+            };
+        </script>
+        <script id="imslib" src="https://static.adobelogin.com/imslib/imslib.min.js" async defer></script>
+        <script nonce="cdf4d119-6f76-4eaf-890f-4c2868dd25bf">
+            var utilNavScript = document.createElement("script");
+            utilNavScript.id = "utilNav";
+            utilNavScript.onload = function () {
+                utilNavLoadCb();
+            };
+            utilNavScript.async = true;
+            utilNavScript.defer = true;
+            utilNavScript.src = "https://prod.adobeccstatic.com/utilnav/8.6/utilitynav.js";
+            document.head.appendChild(utilNavScript);
+        </script>
+        <link rel="stylesheet" type="text/css" href="https://prod.adobeccstatic.com/utilnav/8.6/utilitynav.css" />
+        <script src="/static/share-5ba1cac6d281276beab3.js" async defer></script>
+        <link rel="stylesheet" href="/static/style/style-485fe23321be3bbcf86a0df3b4f649050b8d2609.css" />
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </head>
+    <body>
+        <div id="container"></div>
+        <script nonce="cdf4d119-6f76-4eaf-890f-4c2868dd25bf">
+            try {
+                _satellite.pageBottom();
+            } catch (e) {}
+        </script>
+        <script nonce="cdf4d119-6f76-4eaf-890f-4c2868dd25bf">
+            (function (d) {
+                var config = { kitId: "apl6lau", classes: false, evebts: false, scriptTimeout: 3000, async: true },
+                    h = d.documentElement,
+                    t = setTimeout(function () {
+                        h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                    }, config.scriptTimeout),
+                    tk = d.createElement("script"),
+                    f = false,
+                    s = d.getElementsByTagName("script")[0],
+                    a;
+                h.className += " wf-loading";
+                tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+                tk.async = true;
+                tk.onload = tk.onreadystatechange = function () {
+                    a = this.readyState;
+                    if (f || (a && a != "complete" && a != "loaded")) return;
+                    f = true;
+                    clearTimeout(t);
+                    try {
+                        Typekit.load(config);
+                    } catch (e) {}
+                };
+                s.parentNode.insertBefore(tk, s);
+            })(document);
+            window.configData = {
+                webappContext: "web",
+                detectedLanguage: "en",
+                detectedLocale: "en-US",
+                environment: "production",
+                isPageLocked: false,
+                featureFlags: {
+                    fullscreenScale100: false,
+                    offlineViewer: false,
+                    toastNotification: true,
+                    componentStates: true,
+                    enableRecaptchaToPWScreen: true,
+                    enablePenTestToOldLink: false,
+                    starterUserMonetization: true,
+                    showIENotSupportedToast: true,
+                    legalNotices: true,
+                    useInvitationsV4: false,
+                    publishRenditionsOnCloud: false,
+                },
+                urlType: "Storage Service",
+                protectionType: "public",
+                resourceURN: "urn:aaid:sc:US:3156540b-5773-4c20-9d9c-44fd9e051cc7",
+                prototypeCacheTokenData: { token: "1611682079_urn:aaid:sc:US:3156540b-5773-4c20-9d9c-44fd9e051cc7;public_b2c1d0e5b6cd9644302c375e65f397afac508a07" },
+            };
+            window.configDataLoaded && window.configDataLoaded();
+            window.prototypeData = {
+                manifest: {
+                    shouldLoadUnifiedApp: true,
+                    allowComments: "true",
+                    shareModeViewMode: "ShareModeViewModeDevelopment",
+                    id: "urn:aaid:sc:US:3156540b-5773-4c20-9d9c-44fd9e051cc7",
+                    name: "Flow 1",
+                    thumbnail: { id: "6ea8a7e2-4649-4b26-8fa0-7b2ed129c9d2", path: "homeThumbnail.png", version: "1", component_id: "6ea8a7e2-4649-4b26-8fa0-7b2ed129c9d2" },
+                    interactions: { id: "f9970518-d660-4261-9113-96c80ac931ca", path: "interactions/interactions.json", version: "1" },
+                    globalResources: { id: "d72048fe-4222-499d-86b4-b17922ed266b", path: "globalResources/globalResources.json", version: "0" },
+                    artboards: [
+                        {
+                            id: "5cf131b2-5758-407f-bc9c-9e2e1d36ff22",
+                            name: "Home Page",
+                            bounds: { height: 6113, width: 1600, y: -2568, x: -9487 },
+                            viewport: { height: 900 },
+                            components: [
+                                { id: "130482c0-f84d-42f0-9216-064cbd882805", path: "artwork/artboard-5cf131b2-5758-407f-bc9c-9e2e1d36ff22/graphics/graphicContent.agc", version: "0", rel: "primary", type: "agc" },
+                                { id: "0fdbd8ea-f5e3-47d2-b50d-dfdc0aca56b8", path: "artwork/artboard-5cf131b2-5758-407f-bc9c-9e2e1d36ff22/thumbnailGraphicContent.png", version: "0", rel: "thumbnail" },
+                            ],
+                            resources: [
+                                "1677f04362b5e256c11cfa85c6a8ad71",
+                                "274f6c7d2671ed2575c07b5f74008700",
+                                "ae2a45f8a2490b76016e88ff8100cc0c",
+                                "ae6c821758907eb3bf2e238a17ffa8e1",
+                                "45b194eeab62e029b4ac5d4d4b1b3424",
+                                "1e163b7d22fd7d1ea5a759f14e291907",
+                                "b40629facb92a90c269d8b4ed2f477a3",
+                                "536bf7d19c5646166fb4f8bf572ee703",
+                                "e118dcff3465eaddb0cbe63d2c156841",
+                                "edc5eb11506c9faf77b4ce0dc2832898",
+                                "b0513237031bdd33ec7a067ba09679e4",
+                                "48833105a96b2d92ae72d11131a74a3b",
+                                "7995d3c03393cb2b4b6975fe24ef38e4",
+                            ],
+                        },
+                        {
+                            id: "5d9543e2-b965-4878-93d7-a3c15b71da23",
+                            name: "Home Page – 1",
+                            bounds: { height: 6113, width: 1600, y: -2568, x: -7741 },
+                            viewport: { height: 900 },
+                            components: [
+                                { id: "66353168-4511-48df-a965-2794b042fe3d", path: "artwork/artboard-5d9543e2-b965-4878-93d7-a3c15b71da23/graphics/graphicContent.agc", version: "0", rel: "primary", type: "agc" },
+                                { id: "659dffb8-ca48-4c7f-92d1-0981e6ed78a7", path: "artwork/artboard-5d9543e2-b965-4878-93d7-a3c15b71da23/thumbnailGraphicContent.png", version: "0", rel: "thumbnail" },
+                            ],
+                            resources: [
+                                "1677f04362b5e256c11cfa85c6a8ad71",
+                                "274f6c7d2671ed2575c07b5f74008700",
+                                "ae2a45f8a2490b76016e88ff8100cc0c",
+                                "ae6c821758907eb3bf2e238a17ffa8e1",
+                                "45b194eeab62e029b4ac5d4d4b1b3424",
+                                "1e163b7d22fd7d1ea5a759f14e291907",
+                                "b40629facb92a90c269d8b4ed2f477a3",
+                                "536bf7d19c5646166fb4f8bf572ee703",
+                                "e118dcff3465eaddb0cbe63d2c156841",
+                                "edc5eb11506c9faf77b4ce0dc2832898",
+                                "b0513237031bdd33ec7a067ba09679e4",
+                                "48833105a96b2d92ae72d11131a74a3b",
+                                "7995d3c03393cb2b4b6975fe24ef38e4",
+                            ],
+                        },
+                        {
+                            id: "471f13ba-7368-4233-b224-33abcb2280e0",
+                            name: "Portfolio Page",
+                            bounds: { height: 3362, width: 1600, y: -2568, x: -5995 },
+                            viewport: { height: 900 },
+                            components: [
+                                { id: "fafe8de5-d6c3-4a50-960f-3d71c74307a0", path: "artwork/artboard-471f13ba-7368-4233-b224-33abcb2280e0/graphics/graphicContent.agc", version: "1", rel: "primary", type: "agc" },
+                                { id: "e3718759-b94d-46cf-808e-8062a45e94c7", path: "artwork/artboard-471f13ba-7368-4233-b224-33abcb2280e0/thumbnailGraphicContent.png", version: "0", rel: "thumbnail" },
+                            ],
+                            resources: [
+                                "1996c8d1f8918dcb4f56722c915b4599",
+                                "2332b72b251137d486b16913f8c8acbc",
+                                "1f61fdfea9683d2972f625a3a70ae7bb",
+                                "c2bf74e76d3217d072bdf7bbdce6b908",
+                                "6956edb92f5616ef588eb7f501222cab",
+                                "d68f1c2b04585b211756c3e6e9c06b99",
+                            ],
+                        },
+                        {
+                            id: "86dde37c-1335-4c6b-91b0-9d10d79f2700",
+                            name: "Portfolio Page – 1",
+                            bounds: { height: 3362, width: 1600, y: -2568, x: -4249 },
+                            viewport: { height: 900 },
+                            components: [
+                                { id: "ee16715d-c6a2-4d15-be2a-ff74e9749bf5", path: "artwork/artboard-86dde37c-1335-4c6b-91b0-9d10d79f2700/graphics/graphicContent.agc", version: "1", rel: "primary", type: "agc" },
+                                { id: "ed901daf-a1a1-4ba7-817b-24ec6191c12a", path: "artwork/artboard-86dde37c-1335-4c6b-91b0-9d10d79f2700/thumbnailGraphicContent.png", version: "0", rel: "thumbnail" },
+                            ],
+                            resources: [
+                                "1996c8d1f8918dcb4f56722c915b4599",
+                                "2332b72b251137d486b16913f8c8acbc",
+                                "1f61fdfea9683d2972f625a3a70ae7bb",
+                                "c2bf74e76d3217d072bdf7bbdce6b908",
+                                "6956edb92f5616ef588eb7f501222cab",
+                                "d68f1c2b04585b211756c3e6e9c06b99",
+                            ],
+                        },
+                        {
+                            id: "abea7fab-7ecb-4787-a96f-c438e40394c7",
+                            name: "styleguide",
+                            bounds: { height: 1645, width: 1366, y: -2568, x: -10999 },
+                            viewport: { height: 768 },
+                            components: [
+                                { id: "426c5fbf-080f-414b-abe2-4058821d0937", path: "artwork/artboard-abea7fab-7ecb-4787-a96f-c438e40394c7/graphics/graphicContent.agc", version: "0", rel: "primary", type: "agc" },
+                                { id: "31df062c-0fc3-4d80-aae2-3b0f9c24cc6a", path: "artwork/artboard-abea7fab-7ecb-4787-a96f-c438e40394c7/thumbnailGraphicContent.png", version: "0", rel: "thumbnail" },
+                            ],
+                        },
+                    ],
+                    renderLayers: null,
+                    resources: {
+                        "1677f04362b5e256c11cfa85c6a8ad71": { id: "a0607777-2786-4f31-9e98-a98cc1a1097d", path: "resources/1677f04362b5e256c11cfa85c6a8ad71", version: "0" },
+                        "274f6c7d2671ed2575c07b5f74008700": { id: "3115f175-f9ef-4628-af81-4dc3185d3d7f", path: "resources/274f6c7d2671ed2575c07b5f74008700", version: "0" },
+                        ae2a45f8a2490b76016e88ff8100cc0c: { id: "a88d6954-e79d-4e7c-9e1c-6862473329d2", path: "resources/ae2a45f8a2490b76016e88ff8100cc0c", version: "0" },
+                        ae6c821758907eb3bf2e238a17ffa8e1: { id: "3166ec72-1c42-4edb-bedc-016d610e6b91", path: "resources/ae6c821758907eb3bf2e238a17ffa8e1", version: "0" },
+                        "45b194eeab62e029b4ac5d4d4b1b3424": { id: "cfae6c05-744b-4a9d-b842-3581d07bf3a8", path: "resources/45b194eeab62e029b4ac5d4d4b1b3424", version: "0" },
+                        "1e163b7d22fd7d1ea5a759f14e291907": { id: "179024ed-3a71-4120-b35f-f6dc04c296f9", path: "resources/1e163b7d22fd7d1ea5a759f14e291907", version: "0" },
+                        b40629facb92a90c269d8b4ed2f477a3: { id: "1b34454c-b585-4c99-960c-08180cbb5bd6", path: "resources/b40629facb92a90c269d8b4ed2f477a3", version: "0" },
+                        "536bf7d19c5646166fb4f8bf572ee703": { id: "7ff09007-e13c-47e5-b580-c8b029757e25", path: "resources/536bf7d19c5646166fb4f8bf572ee703", version: "0" },
+                        e118dcff3465eaddb0cbe63d2c156841: { id: "c93dcb98-844f-4856-bbe9-80abd404bd40", path: "resources/e118dcff3465eaddb0cbe63d2c156841", version: "0" },
+                        edc5eb11506c9faf77b4ce0dc2832898: { id: "5183b6f9-0794-4808-ba67-8bfa4b3d655b", path: "resources/edc5eb11506c9faf77b4ce0dc2832898", version: "0" },
+                        b0513237031bdd33ec7a067ba09679e4: { id: "86268ba8-a42b-42a2-bf89-91aacd8ea543", path: "resources/b0513237031bdd33ec7a067ba09679e4", version: "0" },
+                        "48833105a96b2d92ae72d11131a74a3b": { id: "de872466-4a50-48c0-8995-90d69d28558b", path: "resources/48833105a96b2d92ae72d11131a74a3b", version: "0" },
+                        "7995d3c03393cb2b4b6975fe24ef38e4": { id: "aee47d36-2722-48fb-bdd3-b04578b4b3ee", path: "resources/7995d3c03393cb2b4b6975fe24ef38e4", version: "0" },
+                        "1996c8d1f8918dcb4f56722c915b4599": { id: "066c2b4b-9184-403a-bb56-dcbda0bad36b", path: "resources/1996c8d1f8918dcb4f56722c915b4599", version: "0" },
+                        "2332b72b251137d486b16913f8c8acbc": { id: "413cbe75-59cb-41f6-88b1-8fc6c9dde018", path: "resources/2332b72b251137d486b16913f8c8acbc", version: "0" },
+                        "1f61fdfea9683d2972f625a3a70ae7bb": { id: "c9f6cef4-391e-4bf7-8986-ad35e96e7f9d", path: "resources/1f61fdfea9683d2972f625a3a70ae7bb", version: "0" },
+                        c2bf74e76d3217d072bdf7bbdce6b908: { id: "43db84ff-78a4-48ac-a781-ed6060851e4a", path: "resources/c2bf74e76d3217d072bdf7bbdce6b908", version: "0" },
+                        "6956edb92f5616ef588eb7f501222cab": { id: "d271a576-80f0-4f8d-8de8-5764b0e2f4a7", path: "resources/6956edb92f5616ef588eb7f501222cab", version: "0" },
+                        d68f1c2b04585b211756c3e6e9c06b99: { id: "a6e92c19-65c4-475b-8caf-f6559f345763", path: "resources/d68f1c2b04585b211756c3e6e9c06b99", version: "0" },
+                    },
+                    platform: "Web",
+                    docId: "d13c83c5-02dc-4060-a0ae-84db308e3188",
+                    specsAssets: [
+                        { id: "5695943a-7569-498b-85a4-674b9f75e8f1", path: "specsAssets/8c822920-2b79-4566-a838-41cadae39130.png", version: "0", name: "hex-lab" },
+                        { id: "d69859c4-8d28-4ed7-81eb-0d0382fb1583", path: "specsAssets/8c822920-2b79-4566-a838-41cadae39130@2x.png", version: "0", name: "hex-lab" },
+                        { id: "eff832f4-7ece-4e95-8175-2e752964122a", path: "specsAssets/8c822920-2b79-4566-a838-41cadae39130.pdf", version: "0", name: "hex-lab" },
+                        { id: "960ab6ae-65b6-4930-a6e0-a0a4430ee200", path: "specsAssets/5c746573-e015-4b9a-bc4d-4cae1071dfae.png", version: "0", name: "aven" },
+                        { id: "ef70fd61-613b-44c3-8331-8191a8dbb3a5", path: "specsAssets/5c746573-e015-4b9a-bc4d-4cae1071dfae@2x.png", version: "0", name: "aven" },
+                        { id: "38ad841e-af7a-449f-aeca-55758ad7e2bb", path: "specsAssets/5c746573-e015-4b9a-bc4d-4cae1071dfae.pdf", version: "0", name: "aven" },
+                        { id: "384ee0f7-18d4-4098-91e0-e3010954745b", path: "specsAssets/104fab10-482d-4e6e-bea7-d7f424af8629.png", version: "0", name: "liva" },
+                        { id: "361b00a9-1fbb-4d71-a5f5-7e76a7c72db8", path: "specsAssets/104fab10-482d-4e6e-bea7-d7f424af8629@2x.png", version: "0", name: "liva" },
+                        { id: "f78fb012-0ebb-48b0-9c2c-8bb98b8f40d2", path: "specsAssets/104fab10-482d-4e6e-bea7-d7f424af8629.pdf", version: "0", name: "liva" },
+                        { id: "34beab12-6100-4ea8-8954-d3e0faf1b188", path: "specsAssets/3ccd9294-663f-49ef-baa2-5ae73847c868.png", version: "0", name: "ideaa" },
+                        { id: "eac6d234-c24c-42f3-ac52-651347b743fd", path: "specsAssets/3ccd9294-663f-49ef-baa2-5ae73847c868@2x.png", version: "0", name: "ideaa" },
+                        { id: "efbc13d2-959c-4e1a-add5-dce4d2433a9c", path: "specsAssets/3ccd9294-663f-49ef-baa2-5ae73847c868.pdf", version: "0", name: "ideaa" },
+                        { id: "dc268c69-8609-4ad7-82e3-b909775fd801", path: "specsAssets/27e16772-aef0-4b3e-a74a-f9fa4c4db49b.png", version: "0", name: "earth-2.0" },
+                        { id: "0c94e452-bfa7-4c62-bd14-bc4d646f568c", path: "specsAssets/27e16772-aef0-4b3e-a74a-f9fa4c4db49b@2x.png", version: "0", name: "earth-2.0" },
+                        { id: "18f772c7-036b-4241-aa61-e31940b258b4", path: "specsAssets/27e16772-aef0-4b3e-a74a-f9fa4c4db49b.pdf", version: "0", name: "earth-2.0" },
+                        { id: "5566eb75-688c-41cf-affe-9e18a1287034", path: "specsAssets/958a46e7-e518-4244-bc53-42c1c05a2148.png", version: "0", name: "lighting" },
+                        { id: "30fa8424-66d8-4cb3-b625-ccdcc57c000c", path: "specsAssets/958a46e7-e518-4244-bc53-42c1c05a2148@2x.png", version: "0", name: "lighting" },
+                        { id: "53f6a2ad-a5c5-42ef-bef0-4f6c70bd4104", path: "specsAssets/958a46e7-e518-4244-bc53-42c1c05a2148.pdf", version: "0", name: "lighting" },
+                        { id: "43ad4fde-fa41-4a90-b6f0-2dd044145698", path: "specsAssets/8fdb6473-afe9-48a7-8303-3a77e3c09302.png", version: "0", name: "parker-whitson-BbHDqrI4l08-unsplash" },
+                        { id: "510e70fe-8384-4357-b118-7670fc2ffea2", path: "specsAssets/8fdb6473-afe9-48a7-8303-3a77e3c09302@2x.png", version: "0", name: "parker-whitson-BbHDqrI4l08-unsplash" },
+                        { id: "78517e92-52af-4d0d-8dee-aa39b40e0d88", path: "specsAssets/8fdb6473-afe9-48a7-8303-3a77e3c09302.pdf", version: "0", name: "parker-whitson-BbHDqrI4l08-unsplash" },
+                        { id: "1efc3a05-3bc2-4587-8b8b-8f212a8785e3", path: "specsAssets/d350d6ad-86e0-4f64-a1e0-7e76d787ae04.png", version: "0", name: "tyler-nix-PQeoQdkU9jQ-unsplash" },
+                        { id: "0b70b2bb-9fdb-4f82-886e-b16978503ad7", path: "specsAssets/d350d6ad-86e0-4f64-a1e0-7e76d787ae04@2x.png", version: "0", name: "tyler-nix-PQeoQdkU9jQ-unsplash" },
+                        { id: "a120ede4-dc7d-4f17-af9a-c1eda83429ea", path: "specsAssets/d350d6ad-86e0-4f64-a1e0-7e76d787ae04.pdf", version: "0", name: "tyler-nix-PQeoQdkU9jQ-unsplash" },
+                        { id: "27ab787d-efa9-4ae9-8caa-e7bedc540513", path: "specsAssets/5d7edbd0-0e61-4538-a93a-268324c21ca9.png", version: "0", name: "2873" },
+                        { id: "3e272c8c-3ae5-4a48-b841-4920d5f49aa2", path: "specsAssets/5d7edbd0-0e61-4538-a93a-268324c21ca9@2x.png", version: "0", name: "2873" },
+                        { id: "21bb1d29-d75d-4c32-8fd1-6496bd51baa0", path: "specsAssets/5d7edbd0-0e61-4538-a93a-268324c21ca9.pdf", version: "0", name: "2873" },
+                        { id: "13f448f9-454b-4b4a-9f99-ce43961d70d6", path: "specsAssets/263cddbe-e217-4c49-996c-742c8fa42498.png", version: "0", name: "albert-dera-ILip77SbmOE-unsplash" },
+                        { id: "b0d13a10-7fa1-4045-898d-d4e1a606dd59", path: "specsAssets/263cddbe-e217-4c49-996c-742c8fa42498@2x.png", version: "0", name: "albert-dera-ILip77SbmOE-unsplash" },
+                        { id: "a3d22950-8d1b-46eb-8dda-0994829d645a", path: "specsAssets/263cddbe-e217-4c49-996c-742c8fa42498.pdf", version: "0", name: "albert-dera-ILip77SbmOE-unsplash" },
+                        { id: "1bd67388-effb-4708-bc99-c090c7184786", path: "specsAssets/525258c2-b705-48a1-9cd8-0c60fdd9e5d2.png", version: "0", name: "azamat-zhanisov-wO4gtmdlW5Y-unsplash" },
+                        { id: "541c3692-214f-43a6-804a-6aeda57ad177", path: "specsAssets/525258c2-b705-48a1-9cd8-0c60fdd9e5d2@2x.png", version: "0", name: "azamat-zhanisov-wO4gtmdlW5Y-unsplash" },
+                        { id: "0c845092-e822-4888-b4c2-3a79bbe0b96e", path: "specsAssets/525258c2-b705-48a1-9cd8-0c60fdd9e5d2.pdf", version: "0", name: "azamat-zhanisov-wO4gtmdlW5Y-unsplash" },
+                        { id: "64c80b70-75ef-48bb-a70b-e57d8ccf319c", path: "specsAssets/a7a9ad76-9182-4698-8de6-514624f87476.png", version: "0", name: "eduardo-dutra-RPKmkxJw_a0-unsplash" },
+                        { id: "471f38e2-0a25-4833-b1b2-244d06561177", path: "specsAssets/a7a9ad76-9182-4698-8de6-514624f87476@2x.png", version: "0", name: "eduardo-dutra-RPKmkxJw_a0-unsplash" },
+                        { id: "7ef94bd4-25ad-4f92-b4ad-526e9684eb20", path: "specsAssets/a7a9ad76-9182-4698-8de6-514624f87476.pdf", version: "0", name: "eduardo-dutra-RPKmkxJw_a0-unsplash" },
+                        { id: "b8aeb855-f610-4566-b755-512079e76f5c", path: "specsAssets/1f106ab2-01f7-4c96-894b-8383a36ebbf6.png", version: "0", name: "jurica-koletic-7YVZYZeITc8-unsplash" },
+                        { id: "398557ba-adad-4225-9ebe-8575a7619497", path: "specsAssets/1f106ab2-01f7-4c96-894b-8383a36ebbf6@2x.png", version: "0", name: "jurica-koletic-7YVZYZeITc8-unsplash" },
+                        { id: "6acde2f4-6afe-4c87-a5f9-37bf1eca3f60", path: "specsAssets/1f106ab2-01f7-4c96-894b-8383a36ebbf6.pdf", version: "0", name: "jurica-koletic-7YVZYZeITc8-unsplash" },
+                        { id: "c8d14000-0b70-4f1f-b9d3-29d56d2513c5", path: "specsAssets/c0fd1b3b-9457-460e-8072-1743db6b51e0.png", version: "0", name: "quote-left" },
+                        { id: "ee50a921-1ab1-4649-bb0d-8264dfbb9db0", path: "specsAssets/c0fd1b3b-9457-460e-8072-1743db6b51e0@2x.png", version: "0", name: "quote-left" },
+                        { id: "da83b019-bb61-4a3d-97bf-441ce00f5569", path: "specsAssets/c0fd1b3b-9457-460e-8072-1743db6b51e0.svg", version: "0", name: "quote-left" },
+                        { id: "ff4b7d14-b8ab-4eb3-94de-c33b37b18bcb", path: "specsAssets/c0fd1b3b-9457-460e-8072-1743db6b51e0.pdf", version: "0", name: "quote-left" },
+                        { id: "b0c1cefe-5b09-4fe0-9b02-f1f083c5b76e", path: "specsAssets/10f04df8-427c-4260-a2a2-7a2d74e1aa44.png", version: "0", name: "quote-left" },
+                        { id: "cbf703f2-4b06-40ae-82b1-4a69f354e894", path: "specsAssets/10f04df8-427c-4260-a2a2-7a2d74e1aa44@2x.png", version: "0", name: "quote-left" },
+                        { id: "0d80e07d-225f-40f4-ab72-74f1fabe3de8", path: "specsAssets/10f04df8-427c-4260-a2a2-7a2d74e1aa44.svg", version: "0", name: "quote-left" },
+                        { id: "1c64d9df-64d6-4f84-841d-1369fb0b2b77", path: "specsAssets/10f04df8-427c-4260-a2a2-7a2d74e1aa44.pdf", version: "0", name: "quote-left" },
+                        { id: "ffda72fa-d1db-4e23-903f-874d836cbf54", path: "specsAssets/e8da844e-2db0-45fa-8b2b-0f8a29d60e3f.png", version: "0", name: "arrow-left" },
+                        { id: "94de7a4e-5206-449c-952f-b3ddd74fc2c4", path: "specsAssets/e8da844e-2db0-45fa-8b2b-0f8a29d60e3f@2x.png", version: "0", name: "arrow-left" },
+                        { id: "6be15988-8e50-4aa3-a5c9-e0e77de143fb", path: "specsAssets/e8da844e-2db0-45fa-8b2b-0f8a29d60e3f.svg", version: "0", name: "arrow-left" },
+                        { id: "ca77a135-c3ed-4f8f-8429-09fd9b88bdb6", path: "specsAssets/e8da844e-2db0-45fa-8b2b-0f8a29d60e3f.pdf", version: "0", name: "arrow-left" },
+                        { id: "0b782266-a1d5-4d8b-bed7-8a18e8ff7374", path: "specsAssets/63ddbaeb-8cc4-4fab-a9b3-a3cb17abab2a.png", version: "0", name: "arrow-right" },
+                        { id: "67fd7ac4-4af8-44ce-bcaa-ced22defb751", path: "specsAssets/63ddbaeb-8cc4-4fab-a9b3-a3cb17abab2a@2x.png", version: "0", name: "arrow-right" },
+                        { id: "cebbd4c0-d803-408f-a508-b15e54d78d5f", path: "specsAssets/63ddbaeb-8cc4-4fab-a9b3-a3cb17abab2a.svg", version: "0", name: "arrow-right" },
+                        { id: "6d07135d-097c-4628-90da-355ba1702e4a", path: "specsAssets/63ddbaeb-8cc4-4fab-a9b3-a3cb17abab2a.pdf", version: "0", name: "arrow-right" },
+                        { id: "7369fc08-a75f-4b04-8b72-fbd15d10b299", path: "specsAssets/9d7e9193-8a38-4f37-b391-a5437b052933.png", version: "0", name: "search" },
+                        { id: "ae092309-42f0-4b8c-bd32-02939927a9ec", path: "specsAssets/9d7e9193-8a38-4f37-b391-a5437b052933@2x.png", version: "0", name: "search" },
+                        { id: "266c185e-a7d9-4000-b4b6-fd38555b04a5", path: "specsAssets/9d7e9193-8a38-4f37-b391-a5437b052933.svg", version: "0", name: "search" },
+                        { id: "aacda61a-4f4f-460c-b094-47d5f9c23961", path: "specsAssets/9d7e9193-8a38-4f37-b391-a5437b052933.pdf", version: "0", name: "search" },
+                        { id: "492a12b3-f6c8-4558-a99b-d0dcfad21912", path: "specsAssets/1f3765eb-3a07-41e2-b2ce-a7a8608b03cb.png", version: "0", name: "arrow-left" },
+                        { id: "15e8965a-b396-4b56-9c09-982794810aaa", path: "specsAssets/1f3765eb-3a07-41e2-b2ce-a7a8608b03cb@2x.png", version: "0", name: "arrow-left" },
+                        { id: "7fc6b5ae-c2ca-401b-981d-a613bb33c0d7", path: "specsAssets/1f3765eb-3a07-41e2-b2ce-a7a8608b03cb.svg", version: "0", name: "arrow-left" },
+                        { id: "37d2d03a-6547-48de-9b0f-0e3db67fd99f", path: "specsAssets/1f3765eb-3a07-41e2-b2ce-a7a8608b03cb.pdf", version: "0", name: "arrow-left" },
+                        { id: "2f793ff7-32ae-4f7e-86c0-cd8e4ad4638e", path: "specsAssets/7dbd256a-e14c-4b41-8534-d98c898c8279.png", version: "0", name: "arrow-right" },
+                        { id: "87c0a521-bacf-4391-ba52-2932f78bd50f", path: "specsAssets/7dbd256a-e14c-4b41-8534-d98c898c8279@2x.png", version: "0", name: "arrow-right" },
+                        { id: "47ec2af9-9a11-4995-8fb9-953f07853de0", path: "specsAssets/7dbd256a-e14c-4b41-8534-d98c898c8279.svg", version: "0", name: "arrow-right" },
+                        { id: "2425bd05-b88e-4adb-9b5c-10032bf17d18", path: "specsAssets/7dbd256a-e14c-4b41-8534-d98c898c8279.pdf", version: "0", name: "arrow-right" },
+                        { id: "5a76031e-12e1-459d-bde4-f0b7bea9c8cf", path: "specsAssets/2ec2cc66-ee7f-405d-947a-005ee05da6e5.png", version: "0", name: "contact" },
+                        { id: "bee8e072-a346-46a5-87ea-9aba3f2b38f3", path: "specsAssets/2ec2cc66-ee7f-405d-947a-005ee05da6e5@2x.png", version: "0", name: "contact" },
+                        { id: "12c4a7f0-769e-4b6d-9eb4-49974c3477ff", path: "specsAssets/2ec2cc66-ee7f-405d-947a-005ee05da6e5.svg", version: "0", name: "contact" },
+                        { id: "49b96e79-864a-481d-ba75-6d938df29495", path: "specsAssets/2ec2cc66-ee7f-405d-947a-005ee05da6e5.pdf", version: "0", name: "contact" },
+                        { id: "4a07902b-4e7d-4b7c-8db3-b3c3b51830e5", path: "specsAssets/92e71266-87d8-4126-aa00-54a2f4d91377.png", version: "0", name: "facebook" },
+                        { id: "5d156731-6646-4262-b9d9-06408bfa8711", path: "specsAssets/92e71266-87d8-4126-aa00-54a2f4d91377@2x.png", version: "0", name: "facebook" },
+                        { id: "1271bff0-182e-4218-9cbe-33af74d3b97f", path: "specsAssets/92e71266-87d8-4126-aa00-54a2f4d91377.svg", version: "0", name: "facebook" },
+                        { id: "0050d61c-cbb0-4351-b9b5-0305fbddd602", path: "specsAssets/92e71266-87d8-4126-aa00-54a2f4d91377.pdf", version: "0", name: "facebook" },
+                        { id: "c33443b5-240b-40f6-aba0-2e4611cc716d", path: "specsAssets/2c44ff0f-f4e1-4e99-8cbe-39dcaa987989.png", version: "0", name: "skype" },
+                        { id: "20a38bb4-7388-4b9f-8d25-f9f62b279222", path: "specsAssets/2c44ff0f-f4e1-4e99-8cbe-39dcaa987989@2x.png", version: "0", name: "skype" },
+                        { id: "7461df6c-7930-429e-92cf-d4bee7eb2869", path: "specsAssets/2c44ff0f-f4e1-4e99-8cbe-39dcaa987989.svg", version: "0", name: "skype" },
+                        { id: "4e900c26-f633-4617-924a-eb8c98389df0", path: "specsAssets/2c44ff0f-f4e1-4e99-8cbe-39dcaa987989.pdf", version: "0", name: "skype" },
+                        { id: "4992717a-50bb-41cd-81f6-e0bcdb5898e4", path: "specsAssets/1e2292aa-3196-4358-a065-e0effe329ec3.png", version: "0", name: "instagram" },
+                        { id: "9b982829-69d0-4aee-9456-3d9ae5b9b08a", path: "specsAssets/1e2292aa-3196-4358-a065-e0effe329ec3@2x.png", version: "0", name: "instagram" },
+                        { id: "9767f338-cf45-4a36-9bfd-1a0a667fd7e8", path: "specsAssets/1e2292aa-3196-4358-a065-e0effe329ec3.svg", version: "0", name: "instagram" },
+                        { id: "147c3858-39e0-4c5f-b13e-ea32caadd8a8", path: "specsAssets/1e2292aa-3196-4358-a065-e0effe329ec3.pdf", version: "0", name: "instagram" },
+                        { id: "5bb3dc0c-5e0c-4969-aec6-ae8c2e280e67", path: "specsAssets/d467afa1-0302-4b85-b1b0-987d6bc49587.png", version: "0", name: "linkedin" },
+                        { id: "3db8a639-e773-4fa5-8ab4-3b35a1e34d73", path: "specsAssets/d467afa1-0302-4b85-b1b0-987d6bc49587@2x.png", version: "0", name: "linkedin" },
+                        { id: "9d4bd6d7-e356-4673-b9ef-a110bd52596c", path: "specsAssets/d467afa1-0302-4b85-b1b0-987d6bc49587.svg", version: "0", name: "linkedin" },
+                        { id: "b55c4e15-efb8-4596-9229-bdd438e5ea83", path: "specsAssets/d467afa1-0302-4b85-b1b0-987d6bc49587.pdf", version: "0", name: "linkedin" },
+                        { id: "58965e29-2aba-4fdf-a33b-f5e03e0e74b4", path: "specsAssets/72b147f3-dae7-4c4a-b224-722d68c402e5.png", version: "0", name: "hex-lab" },
+                        { id: "4541c456-a0c8-43ba-b027-2910e4b9186b", path: "specsAssets/72b147f3-dae7-4c4a-b224-722d68c402e5@2x.png", version: "0", name: "hex-lab" },
+                        { id: "5f991281-9db7-457d-90bb-613dc88b0f35", path: "specsAssets/72b147f3-dae7-4c4a-b224-722d68c402e5.pdf", version: "0", name: "hex-lab" },
+                        { id: "9d724202-71d5-45d7-a671-0d0cc69b26d9", path: "specsAssets/82d2265c-bf97-4e96-89ef-f716f3e2e97e.png", version: "0", name: "aven" },
+                        { id: "5f2c7173-3ae7-4a2f-a005-f20c98b08a3c", path: "specsAssets/82d2265c-bf97-4e96-89ef-f716f3e2e97e@2x.png", version: "0", name: "aven" },
+                        { id: "f15140c2-34b3-41ea-bf2e-300c0b92debd", path: "specsAssets/82d2265c-bf97-4e96-89ef-f716f3e2e97e.pdf", version: "0", name: "aven" },
+                        { id: "a5fdf7ad-f9cb-4573-a5b0-ebba39fa1620", path: "specsAssets/58b65e2e-59c4-43e2-be89-bf5d75347cd7.png", version: "0", name: "liva" },
+                        { id: "6e78f15d-0107-415c-889e-9497d6af48c1", path: "specsAssets/58b65e2e-59c4-43e2-be89-bf5d75347cd7@2x.png", version: "0", name: "liva" },
+                        { id: "e2acb227-3db0-4ef5-9b40-b8a4be07e082", path: "specsAssets/58b65e2e-59c4-43e2-be89-bf5d75347cd7.pdf", version: "0", name: "liva" },
+                        { id: "8a423da8-a907-411c-9aa8-d06214d604aa", path: "specsAssets/a53ea2f4-dfdc-43c4-96e9-397c83a57826.png", version: "0", name: "ideaa" },
+                        { id: "cba0dd09-23b1-4a5d-ae6b-21d4f9eaa79d", path: "specsAssets/a53ea2f4-dfdc-43c4-96e9-397c83a57826@2x.png", version: "0", name: "ideaa" },
+                        { id: "d28af4a8-7697-433d-a3a4-b75ff7ba9b16", path: "specsAssets/a53ea2f4-dfdc-43c4-96e9-397c83a57826.pdf", version: "0", name: "ideaa" },
+                        { id: "9d2f04c1-5be0-4ad1-aae6-dc7d9e37aad9", path: "specsAssets/b98624e8-9bd4-4b52-83d8-b36f45e5318c.png", version: "0", name: "earth-2.0" },
+                        { id: "9b5ee879-a106-4087-91c4-d13e7a3dc826", path: "specsAssets/b98624e8-9bd4-4b52-83d8-b36f45e5318c@2x.png", version: "0", name: "earth-2.0" },
+                        { id: "f81036b2-9b7f-47cc-81aa-efe783e2bcbb", path: "specsAssets/b98624e8-9bd4-4b52-83d8-b36f45e5318c.pdf", version: "0", name: "earth-2.0" },
+                        { id: "19595b24-b8b1-40ef-bf22-4b759d2108d0", path: "specsAssets/95697a0a-10a6-4f0b-b2ed-19b43552109b.png", version: "0", name: "lighting" },
+                        { id: "b87b3b4b-e8dc-4811-9ba7-4f247028d850", path: "specsAssets/95697a0a-10a6-4f0b-b2ed-19b43552109b@2x.png", version: "0", name: "lighting" },
+                        { id: "0f0edc63-2d32-4d38-8837-365e2d23a667", path: "specsAssets/95697a0a-10a6-4f0b-b2ed-19b43552109b.pdf", version: "0", name: "lighting" },
+                        { id: "893635da-05f8-4b7b-b45f-66d2b46513b0", path: "specsAssets/c80ae2f5-3878-42e7-8820-2e30b1bf8781.png", version: "0", name: "parker-whitson-BbHDqrI4l08-unsplash" },
+                        { id: "3f1b539c-ad3c-46c9-b5ec-a26416c0109f", path: "specsAssets/c80ae2f5-3878-42e7-8820-2e30b1bf8781@2x.png", version: "0", name: "parker-whitson-BbHDqrI4l08-unsplash" },
+                        { id: "e2ed2a45-a774-494d-8996-3209326418a8", path: "specsAssets/c80ae2f5-3878-42e7-8820-2e30b1bf8781.pdf", version: "0", name: "parker-whitson-BbHDqrI4l08-unsplash" },
+                        { id: "df52adb9-60dd-46f4-9c4f-b7b4bf1ac944", path: "specsAssets/281ca631-806b-496f-a36e-cfaa054dd42d.png", version: "0", name: "tyler-nix-PQeoQdkU9jQ-unsplash" },
+                        { id: "b56f79bb-286c-4aa2-892e-b1e9c97e4429", path: "specsAssets/281ca631-806b-496f-a36e-cfaa054dd42d@2x.png", version: "0", name: "tyler-nix-PQeoQdkU9jQ-unsplash" },
+                        { id: "72420b32-0b09-4f5a-80a7-f9011c981449", path: "specsAssets/281ca631-806b-496f-a36e-cfaa054dd42d.pdf", version: "0", name: "tyler-nix-PQeoQdkU9jQ-unsplash" },
+                        { id: "db09d1f7-e950-465b-9409-c28339cd784c", path: "specsAssets/65b39b4c-5186-414f-a6a1-1450a352dade.png", version: "0", name: "2873" },
+                        { id: "595d0d15-75be-42ee-9652-aff79218e4dc", path: "specsAssets/65b39b4c-5186-414f-a6a1-1450a352dade@2x.png", version: "0", name: "2873" },
+                        { id: "e866dda4-d57a-434a-91a7-ebdc71632c9a", path: "specsAssets/65b39b4c-5186-414f-a6a1-1450a352dade.pdf", version: "0", name: "2873" },
+                        { id: "8fd7e46a-18bf-4acd-8ef2-5feb1c08050c", path: "specsAssets/d96a1e3b-8d98-4182-afb8-a1341aee5eaf.png", version: "0", name: "albert-dera-ILip77SbmOE-unsplash" },
+                        { id: "c4fb18fe-b25f-4bc7-9fcf-99fcb5efdbf6", path: "specsAssets/d96a1e3b-8d98-4182-afb8-a1341aee5eaf@2x.png", version: "0", name: "albert-dera-ILip77SbmOE-unsplash" },
+                        { id: "7f74a313-8406-443e-82db-ee8649535e99", path: "specsAssets/d96a1e3b-8d98-4182-afb8-a1341aee5eaf.pdf", version: "0", name: "albert-dera-ILip77SbmOE-unsplash" },
+                        { id: "9e049905-e4ff-467c-838a-d77a26040db0", path: "specsAssets/7b436c57-d1ba-4314-9f8e-53d5792a52ea.png", version: "0", name: "azamat-zhanisov-wO4gtmdlW5Y-unsplash" },
+                        { id: "6861d29f-7ef9-44bf-9b19-f56101827e4e", path: "specsAssets/7b436c57-d1ba-4314-9f8e-53d5792a52ea@2x.png", version: "0", name: "azamat-zhanisov-wO4gtmdlW5Y-unsplash" },
+                        { id: "df75969e-a136-4dd5-9fa0-96dd9dfffa02", path: "specsAssets/7b436c57-d1ba-4314-9f8e-53d5792a52ea.pdf", version: "0", name: "azamat-zhanisov-wO4gtmdlW5Y-unsplash" },
+                        { id: "7ce23835-14fc-4062-affa-d6e248415aa8", path: "specsAssets/77b771f5-ff44-4529-96fe-a98ff96777f4.png", version: "0", name: "eduardo-dutra-RPKmkxJw_a0-unsplash" },
+                        { id: "93844eb8-bca5-4ded-9d3e-8c4e2be4b07f", path: "specsAssets/77b771f5-ff44-4529-96fe-a98ff96777f4@2x.png", version: "0", name: "eduardo-dutra-RPKmkxJw_a0-unsplash" },
+                        { id: "94940749-8815-46f6-9fb1-6e3d1fccd46f", path: "specsAssets/77b771f5-ff44-4529-96fe-a98ff96777f4.pdf", version: "0", name: "eduardo-dutra-RPKmkxJw_a0-unsplash" },
+                        { id: "f89f0a97-97b3-4431-8ef7-6d653f75f490", path: "specsAssets/954cca10-5bab-4bdb-bfb1-7a70df271318.png", version: "0", name: "jurica-koletic-7YVZYZeITc8-unsplash" },
+                        { id: "1b6d22d3-b4a4-4ecf-b653-cf7a5919a890", path: "specsAssets/954cca10-5bab-4bdb-bfb1-7a70df271318@2x.png", version: "0", name: "jurica-koletic-7YVZYZeITc8-unsplash" },
+                        { id: "7c4e649f-da89-4430-8990-2251fff6997b", path: "specsAssets/954cca10-5bab-4bdb-bfb1-7a70df271318.pdf", version: "0", name: "jurica-koletic-7YVZYZeITc8-unsplash" },
+                        { id: "70b64a83-e8bf-4110-80ca-39fc4ef4c8a6", path: "specsAssets/2c33db3f-194a-4987-a329-39fe346c9325.png", version: "0", name: "quote-left" },
+                        { id: "bfca1c4e-10b9-448e-9f4e-d6c24dd749f7", path: "specsAssets/2c33db3f-194a-4987-a329-39fe346c9325@2x.png", version: "0", name: "quote-left" },
+                        { id: "5da62ea2-68eb-43b9-b470-6e3cccc3df33", path: "specsAssets/2c33db3f-194a-4987-a329-39fe346c9325.svg", version: "0", name: "quote-left" },
+                        { id: "96ee0737-c228-4ba1-8e43-415e544483c8", path: "specsAssets/2c33db3f-194a-4987-a329-39fe346c9325.pdf", version: "0", name: "quote-left" },
+                        { id: "ea596565-14ef-464f-add3-e6d3652707e3", path: "specsAssets/dcb69487-a703-411a-b474-48a52521f951.png", version: "0", name: "quote-left" },
+                        { id: "c464d19d-4061-4e8d-a9b7-a127aed5bb52", path: "specsAssets/dcb69487-a703-411a-b474-48a52521f951@2x.png", version: "0", name: "quote-left" },
+                        { id: "499d82b4-e2e8-410a-92f9-74cafc98431c", path: "specsAssets/dcb69487-a703-411a-b474-48a52521f951.svg", version: "0", name: "quote-left" },
+                        { id: "7246c0d8-6855-423c-8bd4-2c2c4a737b95", path: "specsAssets/dcb69487-a703-411a-b474-48a52521f951.pdf", version: "0", name: "quote-left" },
+                        { id: "201e41c1-c0f6-4fdc-8bf7-ab2097f74fa2", path: "specsAssets/9526e7c7-3c25-4517-904f-55fea95db8c9.png", version: "0", name: "arrow-left" },
+                        { id: "993527d0-42b7-47c7-b436-7d4c5e747434", path: "specsAssets/9526e7c7-3c25-4517-904f-55fea95db8c9@2x.png", version: "0", name: "arrow-left" },
+                        { id: "bd37b7fc-af90-45de-a98f-3a8880597c9a", path: "specsAssets/9526e7c7-3c25-4517-904f-55fea95db8c9.svg", version: "0", name: "arrow-left" },
+                        { id: "ee3fc456-9f13-4712-a79b-e5c4f0e17c11", path: "specsAssets/9526e7c7-3c25-4517-904f-55fea95db8c9.pdf", version: "0", name: "arrow-left" },
+                        { id: "6863ead6-9c94-490e-83f7-a082b6218557", path: "specsAssets/f1cf2555-2d22-4a8b-9fd2-5db149baf1d6.png", version: "0", name: "arrow-right" },
+                        { id: "c030b0a2-403e-43c6-90f1-05b0180f6d2e", path: "specsAssets/f1cf2555-2d22-4a8b-9fd2-5db149baf1d6@2x.png", version: "0", name: "arrow-right" },
+                        { id: "62313832-f590-4455-9a72-c6847df9598c", path: "specsAssets/f1cf2555-2d22-4a8b-9fd2-5db149baf1d6.svg", version: "0", name: "arrow-right" },
+                        { id: "56f93743-1e5b-4c64-aa48-0ae15c20a80b", path: "specsAssets/f1cf2555-2d22-4a8b-9fd2-5db149baf1d6.pdf", version: "0", name: "arrow-right" },
+                        { id: "d320487e-38ab-4dde-bb30-ec117a9d0991", path: "specsAssets/a55fadfe-4ade-4728-9b41-1e5df5f0d9cd.png", version: "0", name: "search" },
+                        { id: "5792073b-d061-4a10-b99e-a1c3117ea771", path: "specsAssets/a55fadfe-4ade-4728-9b41-1e5df5f0d9cd@2x.png", version: "0", name: "search" },
+                        { id: "19ad7e8e-b34f-4a79-8c5e-4c486d0004f6", path: "specsAssets/a55fadfe-4ade-4728-9b41-1e5df5f0d9cd.svg", version: "0", name: "search" },
+                        { id: "ab36a67f-d0b8-43e3-9507-afecc87f044a", path: "specsAssets/a55fadfe-4ade-4728-9b41-1e5df5f0d9cd.pdf", version: "0", name: "search" },
+                        { id: "88ea27a5-40e8-49a3-9cbc-3fa13d6b12d6", path: "specsAssets/1f5e4601-be3b-4d9d-b392-3009aef09909.png", version: "0", name: "arrow-left" },
+                        { id: "5f04944c-0dfe-4e2d-b2db-07c6dfc9da8c", path: "specsAssets/1f5e4601-be3b-4d9d-b392-3009aef09909@2x.png", version: "0", name: "arrow-left" },
+                        { id: "e56d6ad4-31ba-4682-b74f-537fe8f42a5a", path: "specsAssets/1f5e4601-be3b-4d9d-b392-3009aef09909.svg", version: "0", name: "arrow-left" },
+                        { id: "db6a8656-3935-41e9-93ff-42101217c5e1", path: "specsAssets/1f5e4601-be3b-4d9d-b392-3009aef09909.pdf", version: "0", name: "arrow-left" },
+                        { id: "5d388fa0-051f-44a6-8348-b11e57191635", path: "specsAssets/9f716bbc-980c-4a1d-9388-9f27cc880395.png", version: "0", name: "arrow-right" },
+                        { id: "bbeb8705-1694-41ce-87ca-02403d58cbb6", path: "specsAssets/9f716bbc-980c-4a1d-9388-9f27cc880395@2x.png", version: "0", name: "arrow-right" },
+                        { id: "8b1b15be-4a20-4b7b-ba42-63411844b445", path: "specsAssets/9f716bbc-980c-4a1d-9388-9f27cc880395.svg", version: "0", name: "arrow-right" },
+                        { id: "fbf87589-3e41-4972-a8e3-214a23462fd9", path: "specsAssets/9f716bbc-980c-4a1d-9388-9f27cc880395.pdf", version: "0", name: "arrow-right" },
+                        { id: "7b1756c7-c8e2-4df2-a882-1d2cb7bddd7c", path: "specsAssets/cb19b034-5f83-41c9-a18c-37eb143a93d5.png", version: "0", name: "contact" },
+                        { id: "8613f9ee-07f5-49fc-81e1-711fe07fc6d7", path: "specsAssets/cb19b034-5f83-41c9-a18c-37eb143a93d5@2x.png", version: "0", name: "contact" },
+                        { id: "ac55ef1e-4fcb-4fe9-b354-38fe95daaacd", path: "specsAssets/cb19b034-5f83-41c9-a18c-37eb143a93d5.svg", version: "0", name: "contact" },
+                        { id: "6a9ba253-a34a-441e-8e79-3357268ead4f", path: "specsAssets/cb19b034-5f83-41c9-a18c-37eb143a93d5.pdf", version: "0", name: "contact" },
+                        { id: "b1645f22-5fb0-4a9b-9f33-941a6f1f220e", path: "specsAssets/1912eaa4-1d5a-456e-a473-90f4b1116dc3.png", version: "0", name: "facebook" },
+                        { id: "0cb8454e-b092-456d-badc-5244877b7fd8", path: "specsAssets/1912eaa4-1d5a-456e-a473-90f4b1116dc3@2x.png", version: "0", name: "facebook" },
+                        { id: "8f44178c-7b56-424e-bd71-d74d4f6a1077", path: "specsAssets/1912eaa4-1d5a-456e-a473-90f4b1116dc3.svg", version: "0", name: "facebook" },
+                        { id: "0b5166b9-38a5-4d7d-9604-022e08849b40", path: "specsAssets/1912eaa4-1d5a-456e-a473-90f4b1116dc3.pdf", version: "0", name: "facebook" },
+                        { id: "7dcd677b-4b59-4665-a49f-20ff53265e2a", path: "specsAssets/c8dd48d2-092b-4fd9-af40-d698227cf685.png", version: "0", name: "skype" },
+                        { id: "88d831f2-b62b-4a5a-a644-ca078babeed8", path: "specsAssets/c8dd48d2-092b-4fd9-af40-d698227cf685@2x.png", version: "0", name: "skype" },
+                        { id: "c959e729-3d1c-4882-bcc1-449cd66ec64f", path: "specsAssets/c8dd48d2-092b-4fd9-af40-d698227cf685.svg", version: "0", name: "skype" },
+                        { id: "8724ca05-0552-40dc-a9ec-199ccba2a616", path: "specsAssets/c8dd48d2-092b-4fd9-af40-d698227cf685.pdf", version: "0", name: "skype" },
+                        { id: "6d505f49-dc86-4ee5-855d-4a16849bb5a4", path: "specsAssets/dd5f0606-4535-463e-81be-b5f4496db142.png", version: "0", name: "instagram" },
+                        { id: "366e44f5-d21b-4eb4-916b-fedcbdfbbd14", path: "specsAssets/dd5f0606-4535-463e-81be-b5f4496db142@2x.png", version: "0", name: "instagram" },
+                        { id: "b756433d-4772-44a2-9e13-e6453cbbaa2c", path: "specsAssets/dd5f0606-4535-463e-81be-b5f4496db142.svg", version: "0", name: "instagram" },
+                        { id: "a9b78236-6466-411a-becc-d2a4910d20f1", path: "specsAssets/dd5f0606-4535-463e-81be-b5f4496db142.pdf", version: "0", name: "instagram" },
+                        { id: "d76c9718-a7dc-4f79-892a-51eeb651cac8", path: "specsAssets/088ba710-8d25-4d2d-afe3-0b08a9e5ebca.png", version: "0", name: "linkedin" },
+                        { id: "5f7d1883-7289-460e-9c55-a6ae622dd0a9", path: "specsAssets/088ba710-8d25-4d2d-afe3-0b08a9e5ebca@2x.png", version: "0", name: "linkedin" },
+                        { id: "53a354f0-2a46-480f-b6f5-c9cefbc2ee8f", path: "specsAssets/088ba710-8d25-4d2d-afe3-0b08a9e5ebca.svg", version: "0", name: "linkedin" },
+                        { id: "e47d51cc-fe1d-4ca7-8c30-57a4d7dfbd12", path: "specsAssets/088ba710-8d25-4d2d-afe3-0b08a9e5ebca.pdf", version: "0", name: "linkedin" },
+                        { id: "427c62a6-7123-442a-9c07-ff326bc671f0", path: "specsAssets/72e0e484-b93d-4543-bf9d-8f6144a7a832.png", version: "0", name: "search" },
+                        { id: "e959130b-bfdc-4c9f-a089-96449ba08f2b", path: "specsAssets/72e0e484-b93d-4543-bf9d-8f6144a7a832@2x.png", version: "0", name: "search" },
+                        { id: "1e093eb4-7d83-4eb8-8665-efbabe3fea01", path: "specsAssets/72e0e484-b93d-4543-bf9d-8f6144a7a832.svg", version: "0", name: "search" },
+                        { id: "09218d2e-7f79-411b-bb51-4b26daafcff6", path: "specsAssets/72e0e484-b93d-4543-bf9d-8f6144a7a832.pdf", version: "0", name: "search" },
+                        { id: "d6a58d6f-c2be-4d5c-9955-147db2c9046e", path: "specsAssets/e02cbdac-1dd9-4368-8553-266abdec77e7.png", version: "0", name: "luke-murace-0uUqyXGxWJY-unsplash" },
+                        { id: "6efcac59-c92b-4d06-b1be-9b4e407bf51e", path: "specsAssets/e02cbdac-1dd9-4368-8553-266abdec77e7@2x.png", version: "0", name: "luke-murace-0uUqyXGxWJY-unsplash" },
+                        { id: "3fc99e26-e1eb-4c50-b794-4b88f17aed84", path: "specsAssets/e02cbdac-1dd9-4368-8553-266abdec77e7.pdf", version: "0", name: "luke-murace-0uUqyXGxWJY-unsplash" },
+                        { id: "c042ee5c-0ce4-4160-b70b-415e15dddd0f", path: "specsAssets/3a1f5c5a-e6d3-4faa-943d-6e89a519ac57.png", version: "0", name: "markus-spiske-LlLnw6Cv6RM-unsplash" },
+                        { id: "0b388c08-8654-454e-8f77-ee72e1a3f163", path: "specsAssets/3a1f5c5a-e6d3-4faa-943d-6e89a519ac57@2x.png", version: "0", name: "markus-spiske-LlLnw6Cv6RM-unsplash" },
+                        { id: "c28a7b9c-a9fc-42b7-a35c-8f7e528937fa", path: "specsAssets/3a1f5c5a-e6d3-4faa-943d-6e89a519ac57.pdf", version: "0", name: "markus-spiske-LlLnw6Cv6RM-unsplash" },
+                        { id: "8bc84587-2ed1-4fc6-be9c-10b4f42b0a20", path: "specsAssets/7c9c891f-1e30-4b52-b70d-c13db6bc51af.png", version: "0", name: "sina-katirachi-sj5nVJSfYl4-unsplash" },
+                        { id: "de221676-34a1-4e5f-b435-0a84ce772852", path: "specsAssets/7c9c891f-1e30-4b52-b70d-c13db6bc51af@2x.png", version: "0", name: "sina-katirachi-sj5nVJSfYl4-unsplash" },
+                        { id: "bdc2e845-e382-492f-829a-13a1b1663866", path: "specsAssets/7c9c891f-1e30-4b52-b70d-c13db6bc51af.pdf", version: "0", name: "sina-katirachi-sj5nVJSfYl4-unsplash" },
+                        { id: "643aaa42-660c-43fb-a0e5-4406449053e0", path: "specsAssets/33ae01df-e0ad-4879-b62c-3963f6c092cc.png", version: "0", name: "markus-spiske-UJwcQ3xeFHo-unsplash" },
+                        { id: "9fbf5a3f-7203-406d-a1d5-de920bcb161c", path: "specsAssets/33ae01df-e0ad-4879-b62c-3963f6c092cc@2x.png", version: "0", name: "markus-spiske-UJwcQ3xeFHo-unsplash" },
+                        { id: "df2cc88c-8585-497e-9d0b-01d3cf04001e", path: "specsAssets/33ae01df-e0ad-4879-b62c-3963f6c092cc.pdf", version: "0", name: "markus-spiske-UJwcQ3xeFHo-unsplash" },
+                        { id: "b315da82-fabe-42b7-849d-4617024a6d5e", path: "specsAssets/1870557b-4c01-4c81-867d-2a0e552f43a6.png", version: "0", name: "75095" },
+                        { id: "abd1fee0-13e2-41f0-b271-f1ea5c0422db", path: "specsAssets/1870557b-4c01-4c81-867d-2a0e552f43a6@2x.png", version: "0", name: "75095" },
+                        { id: "b45e5e0e-9294-4d74-a290-57e241a796a3", path: "specsAssets/1870557b-4c01-4c81-867d-2a0e552f43a6.pdf", version: "0", name: "75095" },
+                        { id: "7d91e51e-2e1a-4a23-b64d-62b718f5e91b", path: "specsAssets/0512a605-b542-4483-9379-79cb890d030d.png", version: "0", name: "charles-y-1" },
+                        { id: "56286369-a8d9-4622-b17b-78cc3eec75e4", path: "specsAssets/0512a605-b542-4483-9379-79cb890d030d@2x.png", version: "0", name: "charles-y-1" },
+                        { id: "f0c95d03-f538-4029-8723-9ebef34614cc", path: "specsAssets/0512a605-b542-4483-9379-79cb890d030d.pdf", version: "0", name: "charles-y-1" },
+                        { id: "c98debde-4003-4d30-81ed-25b1db8afa8e", path: "specsAssets/ea7e4ee0-9c13-4059-80b6-082ded7e6fb6.png", version: "0", name: "contact" },
+                        { id: "fa599dfb-f5c7-4c23-b776-8e6c0c2080e7", path: "specsAssets/ea7e4ee0-9c13-4059-80b6-082ded7e6fb6@2x.png", version: "0", name: "contact" },
+                        { id: "e9a88fce-ed0b-4287-ba70-8cccdd80291d", path: "specsAssets/ea7e4ee0-9c13-4059-80b6-082ded7e6fb6.svg", version: "0", name: "contact" },
+                        { id: "ebd97d00-269e-418c-b0ad-904e5c4fe39e", path: "specsAssets/ea7e4ee0-9c13-4059-80b6-082ded7e6fb6.pdf", version: "0", name: "contact" },
+                        { id: "02e3309f-c096-44e3-bf13-77db2619b1b2", path: "specsAssets/61e0298e-0934-4255-931c-6e2349e05b4d.png", version: "0", name: "facebook" },
+                        { id: "c02e71f4-a5b7-4ef8-8fc3-eb220d40c4a6", path: "specsAssets/61e0298e-0934-4255-931c-6e2349e05b4d@2x.png", version: "0", name: "facebook" },
+                        { id: "82933817-c5b7-4d13-917a-65077bd421a1", path: "specsAssets/61e0298e-0934-4255-931c-6e2349e05b4d.svg", version: "0", name: "facebook" },
+                        { id: "24be6414-37ba-4431-b1c3-e1f647eee791", path: "specsAssets/61e0298e-0934-4255-931c-6e2349e05b4d.pdf", version: "0", name: "facebook" },
+                        { id: "2036ec95-c421-4223-9427-fe5ef421f859", path: "specsAssets/83b3d5e0-9fdb-46b2-b514-dda7a3cea187.png", version: "0", name: "skype" },
+                        { id: "c44b0d49-e7e9-4144-b017-16514024367d", path: "specsAssets/83b3d5e0-9fdb-46b2-b514-dda7a3cea187@2x.png", version: "0", name: "skype" },
+                        { id: "a7e36a75-7bcb-45e5-b113-48dc5b57a23f", path: "specsAssets/83b3d5e0-9fdb-46b2-b514-dda7a3cea187.svg", version: "0", name: "skype" },
+                        { id: "91a664a6-7b1b-46b4-8f40-3c1ea58bc020", path: "specsAssets/83b3d5e0-9fdb-46b2-b514-dda7a3cea187.pdf", version: "0", name: "skype" },
+                        { id: "4dd0087a-4570-40ed-8928-3d316dd04327", path: "specsAssets/784635c4-bfda-4fae-8f2d-4fb3336b6a93.png", version: "0", name: "instagram" },
+                        { id: "4fb01a71-64ac-4d79-8e05-fa6d4d11fd5e", path: "specsAssets/784635c4-bfda-4fae-8f2d-4fb3336b6a93@2x.png", version: "0", name: "instagram" },
+                        { id: "36d8476e-3351-4c48-aa92-8d024ad76dc7", path: "specsAssets/784635c4-bfda-4fae-8f2d-4fb3336b6a93.svg", version: "0", name: "instagram" },
+                        { id: "f1e5a8e5-7c4c-409a-b39b-e4cbcb64af81", path: "specsAssets/784635c4-bfda-4fae-8f2d-4fb3336b6a93.pdf", version: "0", name: "instagram" },
+                        { id: "cad463ab-fa7f-4455-a77e-c022640ae1ce", path: "specsAssets/0de929ef-8c61-4b18-b9ea-414a81770f8f.png", version: "0", name: "linkedin" },
+                        { id: "2ee21516-bda1-4327-89b0-790e3fd18260", path: "specsAssets/0de929ef-8c61-4b18-b9ea-414a81770f8f@2x.png", version: "0", name: "linkedin" },
+                        { id: "b1c2f86c-5e76-4ab8-91c5-865d00caacb4", path: "specsAssets/0de929ef-8c61-4b18-b9ea-414a81770f8f.svg", version: "0", name: "linkedin" },
+                        { id: "d9f71554-a917-446f-b8d2-cce97d0bd630", path: "specsAssets/0de929ef-8c61-4b18-b9ea-414a81770f8f.pdf", version: "0", name: "linkedin" },
+                        { id: "7b89c8cf-14a3-4a99-b29d-bd2f8222d00e", path: "specsAssets/b54d34c1-12e5-43f3-a391-927e80d7e4dd.png", version: "0", name: "search" },
+                        { id: "a30a8c1e-05e1-458f-bf3f-820428869525", path: "specsAssets/b54d34c1-12e5-43f3-a391-927e80d7e4dd@2x.png", version: "0", name: "search" },
+                        { id: "1765c722-1222-44c1-9976-69c3455f8512", path: "specsAssets/b54d34c1-12e5-43f3-a391-927e80d7e4dd.svg", version: "0", name: "search" },
+                        { id: "b406d6e8-aede-4e60-a12b-c52177c5b4a6", path: "specsAssets/b54d34c1-12e5-43f3-a391-927e80d7e4dd.pdf", version: "0", name: "search" },
+                        { id: "5abd2bb3-14da-4e7f-9afc-59240f131792", path: "specsAssets/f9b15cfe-09f5-4126-ba4d-1a03d6817127.png", version: "0", name: "luke-murace-0uUqyXGxWJY-unsplash" },
+                        { id: "e137ea7c-84ad-49ac-be85-992c8d57755a", path: "specsAssets/f9b15cfe-09f5-4126-ba4d-1a03d6817127@2x.png", version: "0", name: "luke-murace-0uUqyXGxWJY-unsplash" },
+                        { id: "7d7eafa8-c578-4f60-9275-989cf1a634b3", path: "specsAssets/f9b15cfe-09f5-4126-ba4d-1a03d6817127.pdf", version: "0", name: "luke-murace-0uUqyXGxWJY-unsplash" },
+                        { id: "aba6f122-a582-46f9-bfdd-8d741f6310db", path: "specsAssets/69aade17-e43d-419c-b438-b4e84aa01b94.png", version: "0", name: "markus-spiske-LlLnw6Cv6RM-unsplash" },
+                        { id: "e1fe7362-d268-45bd-8eda-17a6a06acdaf", path: "specsAssets/69aade17-e43d-419c-b438-b4e84aa01b94@2x.png", version: "0", name: "markus-spiske-LlLnw6Cv6RM-unsplash" },
+                        { id: "58bf3515-5024-4e8d-a1d6-9a1bb8159ba4", path: "specsAssets/69aade17-e43d-419c-b438-b4e84aa01b94.pdf", version: "0", name: "markus-spiske-LlLnw6Cv6RM-unsplash" },
+                        { id: "4342cb40-73b8-46fb-84f8-e159f7269ec2", path: "specsAssets/ad922b17-93a4-4918-9a2a-d61104b89ac0.png", version: "0", name: "sina-katirachi-sj5nVJSfYl4-unsplash" },
+                        { id: "1378b6b8-f6dd-43a7-947b-8154a8fe7d2b", path: "specsAssets/ad922b17-93a4-4918-9a2a-d61104b89ac0@2x.png", version: "0", name: "sina-katirachi-sj5nVJSfYl4-unsplash" },
+                        { id: "27212cee-2f28-4262-abbf-3e7d3b31a243", path: "specsAssets/ad922b17-93a4-4918-9a2a-d61104b89ac0.pdf", version: "0", name: "sina-katirachi-sj5nVJSfYl4-unsplash" },
+                        { id: "06fea654-202a-4773-b02c-6cbfc4703cec", path: "specsAssets/cd2a1ded-cea7-47c6-a22c-34a6d8f51fbd.png", version: "0", name: "markus-spiske-UJwcQ3xeFHo-unsplash" },
+                        { id: "fe5e33dd-5897-4b37-a1bd-e33bbc60fe93", path: "specsAssets/cd2a1ded-cea7-47c6-a22c-34a6d8f51fbd@2x.png", version: "0", name: "markus-spiske-UJwcQ3xeFHo-unsplash" },
+                        { id: "36e4495c-78b7-4085-9e0d-4f313443bf26", path: "specsAssets/cd2a1ded-cea7-47c6-a22c-34a6d8f51fbd.pdf", version: "0", name: "markus-spiske-UJwcQ3xeFHo-unsplash" },
+                        { id: "ae11bb0a-08b1-4b16-906c-f7ae02d2d818", path: "specsAssets/0da3921e-476d-4c71-897d-26188c7b99cd.png", version: "0", name: "75095" },
+                        { id: "fd607c6e-cc6f-4c85-ad36-35ab45825c29", path: "specsAssets/0da3921e-476d-4c71-897d-26188c7b99cd@2x.png", version: "0", name: "75095" },
+                        { id: "42c57c09-9488-41a8-992e-b07588510b66", path: "specsAssets/0da3921e-476d-4c71-897d-26188c7b99cd.pdf", version: "0", name: "75095" },
+                        { id: "f7bc8548-ccc8-44ba-9944-2c8d463ca80f", path: "specsAssets/4f269bc1-4736-4e7d-8db3-990479373614.png", version: "0", name: "charles-y-1" },
+                        { id: "025a9548-ed8b-4ce8-8315-e29bb6e540c6", path: "specsAssets/4f269bc1-4736-4e7d-8db3-990479373614@2x.png", version: "0", name: "charles-y-1" },
+                        { id: "91ebc0fc-657a-4725-af87-8b9a469b0488", path: "specsAssets/4f269bc1-4736-4e7d-8db3-990479373614.pdf", version: "0", name: "charles-y-1" },
+                        { id: "b243766e-c7cf-4690-a525-f4b2d4aca104", path: "specsAssets/c301708c-50db-4187-bab5-74c498ce4da9.png", version: "0", name: "contact" },
+                        { id: "c06b5bd2-1e21-4984-9367-7305d7b19ee2", path: "specsAssets/c301708c-50db-4187-bab5-74c498ce4da9@2x.png", version: "0", name: "contact" },
+                        { id: "c564f304-0427-401b-8a9c-02b1368c5c24", path: "specsAssets/c301708c-50db-4187-bab5-74c498ce4da9.svg", version: "0", name: "contact" },
+                        { id: "669bb549-892a-456a-b7e4-f4d7b71cce21", path: "specsAssets/c301708c-50db-4187-bab5-74c498ce4da9.pdf", version: "0", name: "contact" },
+                        { id: "8baa8c9b-4c87-4a53-b372-4275e31676f3", path: "specsAssets/f7575072-a8c0-4158-ba53-1d3ba178a0bd.png", version: "0", name: "facebook" },
+                        { id: "7d3cfa88-91f1-4f4f-94cc-5b4c26169da1", path: "specsAssets/f7575072-a8c0-4158-ba53-1d3ba178a0bd@2x.png", version: "0", name: "facebook" },
+                        { id: "355aab44-9a10-438f-9c15-db97a312f231", path: "specsAssets/f7575072-a8c0-4158-ba53-1d3ba178a0bd.svg", version: "0", name: "facebook" },
+                        { id: "be662629-b9f6-4f39-a7b5-869649991e81", path: "specsAssets/f7575072-a8c0-4158-ba53-1d3ba178a0bd.pdf", version: "0", name: "facebook" },
+                        { id: "645d82c2-3509-4891-a02b-dc9440aa4ef3", path: "specsAssets/1fe27d5f-d976-414c-b8df-1f3fd5fb24d1.png", version: "0", name: "skype" },
+                        { id: "ebb5e4a6-4128-422c-bfaf-2d4eaaf255e0", path: "specsAssets/1fe27d5f-d976-414c-b8df-1f3fd5fb24d1@2x.png", version: "0", name: "skype" },
+                        { id: "d64777d4-ae72-482e-8bf5-e44e71a6beab", path: "specsAssets/1fe27d5f-d976-414c-b8df-1f3fd5fb24d1.svg", version: "0", name: "skype" },
+                        { id: "9cec33f8-20eb-4078-8def-15095507816e", path: "specsAssets/1fe27d5f-d976-414c-b8df-1f3fd5fb24d1.pdf", version: "0", name: "skype" },
+                        { id: "ca6cea43-9c2c-4ea6-9019-79f4cede5bb3", path: "specsAssets/4be06d07-ab34-46f3-89f4-8bc9e1656f17.png", version: "0", name: "instagram" },
+                        { id: "01886209-86df-40d1-9885-f4eb7bc44dbf", path: "specsAssets/4be06d07-ab34-46f3-89f4-8bc9e1656f17@2x.png", version: "0", name: "instagram" },
+                        { id: "5f8d387b-77b4-4948-a609-7492f14a89fb", path: "specsAssets/4be06d07-ab34-46f3-89f4-8bc9e1656f17.svg", version: "0", name: "instagram" },
+                        { id: "59a8de46-3660-4c89-affc-cf1165697cc3", path: "specsAssets/4be06d07-ab34-46f3-89f4-8bc9e1656f17.pdf", version: "0", name: "instagram" },
+                        { id: "d4cb1682-d450-471b-93cd-a6a7d45fe518", path: "specsAssets/f7187365-562d-48b8-a69e-a1f4d38959d0.png", version: "0", name: "linkedin" },
+                        { id: "d95de52b-d313-42a2-b170-fd3954a98a25", path: "specsAssets/f7187365-562d-48b8-a69e-a1f4d38959d0@2x.png", version: "0", name: "linkedin" },
+                        { id: "32a5ed90-f6fd-4f7a-9085-304c8784abad", path: "specsAssets/f7187365-562d-48b8-a69e-a1f4d38959d0.svg", version: "0", name: "linkedin" },
+                        { id: "147ad062-1630-4b80-b802-47494a56089a", path: "specsAssets/f7187365-562d-48b8-a69e-a1f4d38959d0.pdf", version: "0", name: "linkedin" },
+                    ],
+                    homeArtboardType: "Web",
+                    disableNavigation: false,
+                    includeSpecs: true,
+                    gridVisible: false,
+                    gridType: "",
+                    useInvitationsCommentsACL: true,
+                },
+                linkTemplate: {
+                    href: "https://cdn-sharing.adobecc.com/id/urn:aaid:sc:US:3156540b-5773-4c20-9d9c-44fd9e051cc7{;version}{?component_id}",
+                    data: { api_key: "CometServer1", access_token: "1611700623_urn:aaid:sc:US:3156540b-5773-4c20-9d9c-44fd9e051cc7;public_214406c87e873bed62f98f303b179bc855c1fbc3" },
+                },
+                ownerId: "693A36745AD1B9080A495E58@AdobeID",
+                modifiedDate: 1610120855694,
+                version: 1,
+                appVersion: "2.16",
+                manifestURL:
+                    "https://cdn-sharing.adobecc.com/id/urn:aaid:sc:US:3156540b-5773-4c20-9d9c-44fd9e051cc7/:manifest?api_key=CometServer1&access_token=1611700623_urn%3Aaaid%3Asc%3AUS%3A3156540b-5773-4c20-9d9c-44fd9e051cc7%3Bpublic_214406c87e873bed62f98f303b179bc855c1fbc3",
+                manifestResourceURN: "urn:aaid:sc:US:b278b4f9-f06d-443d-9f10-37dc9f8c73d4",
+            };
+            if (window.prototypeData && window.prototypeDataLoaded) {
+                window.prototypeDataLoaded();
+            }
+            window.target = { mBoxes: {}, cookie: {}, organizationId: "", serverState: {} };
+        </script>
+        <div style="bottom: 0px; position: fixed; display: block; width: 85%; z-index: 1000000; margin-left: 7.5%;"><div id="mainFooter"></div></div>
+    </body>
+</html>
